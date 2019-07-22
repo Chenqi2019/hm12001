@@ -1,0 +1,84 @@
+{
+  "uid" : "6ffe88436575b041",
+  "name" : "Test01.test005",
+  "fullName" : "test01.Test01.test005",
+  "historyId" : "8331a43391a386289c679874bef9539a",
+  "time" : {
+    "start" : 1563736241397,
+    "stop" : 1563736241477,
+    "duration" : 80
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <test01.Test01 object at 0x0388A3D0>\n\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    def test005(self):\n        # with open(\"./picture/cookie产生及应用草图.jpg\",\"rb\")as f:\n        #     allure.attach(\"测试成功：\",f.read(),allure.attach_type.JPG)\n        allure.attach(\"描述：\",\"\")\n>       assert 0\nE       assert 0\n\nscripts\\test01.py:29: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0",
+    "statusTrace" : "self = <test01.Test01 object at 0x0388A3D0>\n\n    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)\n    def test005(self):\n        # with open(\"./picture/cookie产生及应用草图.jpg\",\"rb\")as f:\n        #     allure.attach(\"测试成功：\",f.read(),allure.attach_type.JPG)\n        allure.attach(\"描述：\",\"\")\n>       assert 0\nE       assert 0\n\nscripts\\test01.py:29: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8bca89ef12db55c1",
+      "name" : "描述：",
+      "source" : "8bca89ef12db55c1.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-O9P8D7C"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "6276-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test01"
+  }, {
+    "name" : "testClass",
+    "value" : "test01"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01.test005"
+  }, {
+    "name" : "package",
+    "value" : "test01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6ffe88436575b041.json",
+  "parameterValues" : [ ]
+}
